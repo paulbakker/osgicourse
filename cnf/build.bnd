@@ -55,3 +55,6 @@
 # Git-Descriptor:       ${system-allow-fail;git describe --dirty --always}
 # Git-SHA:              ${system-allow-fail;git rev-list -1 HEAD}
 # -diffignore:          Git-Descriptor,Git-SHA
+-plugin: \
+	${ext.repositories.-plugin},\
+	org.apache.felix.dm.annotation.plugin.bnd.AnnotationPlugin;path:=cnf/plugins/org.apache.felix.dependencymanager.annotation-3.1.1-SNAPSHOT.jar;build-import-export-service=false

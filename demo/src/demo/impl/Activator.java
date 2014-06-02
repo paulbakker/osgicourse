@@ -1,8 +1,11 @@
 package demo.impl;
 
+import java.util.Properties;
+
 import org.apache.felix.dm.DependencyActivatorBase;
 import org.apache.felix.dm.DependencyManager;
 import org.osgi.framework.BundleContext;
+import org.osgi.framework.Constants;
 
 import demo.Hello;
 
