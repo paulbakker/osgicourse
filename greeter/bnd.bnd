@@ -1,0 +1,8 @@
+Bundle-Version: 0.0.0.${tstamp}
+-buildpath:  \
+	demo;version=latest,\
+	osgi.core,\
+	org.apache.felix.dependencymanager
+Private-Package:  \
+	greeter
+Bundle-Activator: greeter.Activator
