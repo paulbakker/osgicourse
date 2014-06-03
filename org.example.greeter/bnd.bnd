@@ -2,7 +2,8 @@ Bundle-Version: 0.0.0.${tstamp}
 -buildpath:  \
 	org.apache.felix.dependencymanager,\
 	osgi.core,\
-	osgi.cmpn;version=4.3
+	osgi.cmpn;version=4.3,\
+	org.mockito.mockito-all
 Export-Package:  \
 	org.example.greeter
 Private-Package:  \
