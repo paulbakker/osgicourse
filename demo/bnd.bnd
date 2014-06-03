@@ -1,9 +1,0 @@
-Bundle-Version: 0.0.0.${tstamp}
-Export-Package:  \
-	demo
-Private-Package:  \
-	demo.impl
--buildpath:  \
-	org.apache.felix.dependencymanager,\
-	osgi.core
-Bundle-Activator: demo.impl.Activator

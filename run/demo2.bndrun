@@ -15,5 +15,7 @@
 	org.apache.felix.dependencymanager.shell,\
 	org.apache.felix.dependencymanager.runtime,\
 	org.example.greeter;version=latest,\
-	org.example.greeter.consumer;version=latest,\
-	org.example.config;version=latest
+	greeterfactory;version=latest,\
+	multigreeter;version=latest,\
+	org.apache.felix.fileinstall
+	

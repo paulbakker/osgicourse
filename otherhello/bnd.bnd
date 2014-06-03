@@ -1,8 +1,0 @@
-Bundle-Version: 0.0.0.${tstamp}
--buildpath: \
-	demo;version=latest,\
-	org.apache.felix.dependencymanager,\
-	osgi.core,\
-	../cnf/plugins/org.apache.felix.dependencymanager.annotation-3.1.1-SNAPSHOT.jar;version=file
-Private-Package:  \
-	otherhello

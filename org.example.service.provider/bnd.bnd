@@ -1,0 +1,8 @@
+Bundle-Version: 0.0.0.${tstamp}
+-buildpath:  \
+	osgi.core
+Private-Package:  \
+	org.example.service.provider.impl
+Export-Package:  \
+	org.example.service.provider
+Bundle-Activator: org.example.service.provider.impl.Activator

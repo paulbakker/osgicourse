@@ -1,0 +1,10 @@
+Bundle-Version: 0.0.0.${tstamp}
+-buildpath:  \
+	org.apache.felix.dependencymanager,\
+	osgi.core,\
+	osgi.cmpn;version=4.3
+Export-Package:  \
+	org.example.greeter
+Private-Package:  \
+	org.example.greeter.impl
+Bundle-Activator: org.example.greeter.impl.Activator

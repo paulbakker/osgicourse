@@ -1,0 +1,8 @@
+Bundle-Version: 0.0.0.${tstamp}
+-buildpath:  \
+	osgi.core;version=4.3,\
+	osgi.cmpn,\
+	org.example.service.provider;version=latest
+Private-Package:  \
+	org.example.servicetracker
+Bundle-Activator: org.example.servicetracker.ServiceTrackerExample

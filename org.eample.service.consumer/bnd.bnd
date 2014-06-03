@@ -1,0 +1,7 @@
+Bundle-Version: 0.0.0.${tstamp}
+-buildpath:  \
+	org.example.service.provider;version=latest,\
+	osgi.core;version=4.3
+Private-Package:  \
+	org.eample.service.consumer
+Bundle-Activator: org.eample.service.consumer.ExampleConsumer
