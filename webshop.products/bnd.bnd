@@ -1,0 +1,16 @@
+Bundle-Version: 0.0.0.${tstamp}
+-buildpath:  \
+	org.apache.felix.dependencymanager,\
+	osgi.core,\
+	org.mongodb.mongo-java-driver,\
+	org.amdatu.mongo,\
+	com.fasterxml.jackson.core.jackson-annotations,\
+	com.fasterxml.jackson.core.jackson-core,\
+	com.fasterxml.jackson.core.jackson-databind,\
+	de.undercouch.bson4jackson,\
+	org.mongojack
+Export-Package:  \
+	webshop.products
+Private-Package:  \
+	webshop.products.mongo
+Bundle-Activator: webshop.products.mongo.Activator
