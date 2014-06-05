@@ -14,6 +14,16 @@
 	org.apache.felix.eventadmin,\
 	org.apache.felix.dependencymanager.shell,\
 	org.apache.felix.dependencymanager.runtime,\
-	org.example.greeter;version=latest,\
-	org.example.greeter.consumer;version=latest,\
-	org.example.config;version=latest
+	webshop.products.mongo;version=latest,\
+	org.mongojack,\
+	org.mongodb.mongo-java-driver,\
+	org.amdatu.mongo,\
+	com.fasterxml.jackson.core.jackson-annotations,\
+	com.fasterxml.jackson.core.jackson-core,\
+	com.fasterxml.jackson.core.jackson-databind,\
+	de.undercouch.bson4jackson,\
+	webshop.products.api;version=latest,\
+	webshop.products.web.servlet;version=latest,\
+	org.apache.felix.http.jetty,\
+	javax.persistence,\
+	org.apache.felix.fileinstall

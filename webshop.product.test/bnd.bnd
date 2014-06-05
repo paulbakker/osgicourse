@@ -3,7 +3,7 @@
 	osgi.cmpn,\
 	${junit},\
 	org.mockito.mockito-all,\
-	webshop.products;version=latest,\
+	webshop.products.api;version=latest,\
 	org.amdatu.bndtools.test,\
 	org.apache.felix.dependencymanager,\
 	org.mongodb.mongo-java-driver,\
@@ -15,7 +15,7 @@
 	org.apache.felix.metatype,\
 	org.apache.felix.log,\
 	org.apache.felix.eventadmin,\
-	webshop.products;version=latest,\
+	webshop.products.api;version=latest,\
 	org.mongodb.mongo-java-driver,\
 	org.amdatu.bndtools.test,\
 	com.fasterxml.jackson.core.jackson-annotations,\
@@ -23,7 +23,8 @@
 	com.fasterxml.jackson.core.jackson-databind,\
 	org.mongojack,\
 	de.undercouch.bson4jackson,\
-	javax.persistence
+	javax.persistence,\
+	webshop.products.mongo;version=latest
 -runee: JavaSE-1.6
 -runfw: org.apache.felix.framework
 -runsystempackages:  \

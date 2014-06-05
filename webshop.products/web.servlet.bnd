@@ -1,0 +1,3 @@
+Private-Package:  \
+	webshop.products.web.servlet
+Bundle-Activator: webshop.products.web.servlet.Activator
