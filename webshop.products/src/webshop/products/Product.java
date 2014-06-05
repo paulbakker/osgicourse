@@ -1,6 +1,7 @@
 package webshop.products;
 
 public class Product {
+
 	private String _id;
 	private String name;
 	private String category;
@@ -28,7 +29,11 @@ public class Product {
 	public void setCategory(String category) {
 		this.category = category;
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return "Product [_id=" + _id + ", name=" + name + ", category="
+				+ category + "]";
+	}
 
 }

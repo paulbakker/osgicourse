@@ -1,0 +1,4 @@
+Bundle-Version: 0.0.0.${tstamp}
+Private-Package:  \
+	webshop.web.filters
+Bundle-Activator: webshop.web.filters.Activator

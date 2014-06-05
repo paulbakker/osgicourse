@@ -9,6 +9,7 @@
 	de.undercouch.bson4jackson,\
 	org.mongojack,\
 	javax.servlet,\
-	org.apache.felix.http.jetty
+	org.apache.felix.http.jetty,\
+	org.amdatu.web.rest.jaxrs
 -sub:  \
 	*.bnd

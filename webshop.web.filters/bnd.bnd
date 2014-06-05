@@ -1,0 +1,6 @@
+-buildpath:  \
+	javax.servlet,\
+	org.apache.felix.dependencymanager,\
+	osgi.core
+-sub:  \
+	*.bnd

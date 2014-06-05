@@ -27,4 +27,13 @@
 	org.apache.felix.http.jetty,\
 	javax.persistence,\
 	org.apache.felix.fileinstall,\
-	org.apache.felix.http.whiteboard
+	org.apache.felix.http.whiteboard,\
+	webshop.web.filters.logging;version=latest,\
+	webshop.products.rest;version=latest,\
+	org.amdatu.web.rest.jaxrs,\
+	org.amdatu.web.rest.wink;version=1.0.8,\
+	com.fasterxml.jackson.jaxrs.jackson-jaxrs-base,\
+	com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider,\
+	jackson-jaxrs,\
+	jackson-core-asl,\
+	jackson-mapper-asl

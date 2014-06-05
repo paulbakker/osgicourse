@@ -24,7 +24,7 @@ public class Activator extends DependencyActivatorBase {
 	public void init(BundleContext bc, DependencyManager dm) throws Exception {
 
 		Properties props = new Properties();
-		props.put("alias", "/products");
+		props.put("alias", "/productsservlet");
 		
 		dm.add(createComponent()
 				.setInterface(Servlet.class.getName(), props)
