@@ -7,6 +7,7 @@ import java.util.List;
 import org.amdatu.mongo.MongoDBService;
 import org.bson.types.ObjectId;
 import org.mongojack.JacksonDBCollection;
+import org.mongojack.WriteResult;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBCollection;
@@ -31,12 +32,12 @@ public class MongoProductService implements ProductService {
 
 	@Override
 	public void save(Product product) {
-
-//		BasicDBObject productObject = new BasicDBObject();
-//		productObject.put("name", product.getName());
-//		collection.save(productObject);
+		WriteResult<Product, String> save = products.save(product);
 		
-		products.save(product);
+		String savedId = save.getSavedId();
+		if(savedId != null) {
+			product.set_id(savedId);
+		}
 
 	}
 
