@@ -19,21 +19,7 @@ import webshop.products.ProductService;
 
 public class ProductServlet extends HttpServlet {
 	
-	private volatile HttpService httpService;
 	private volatile ProductService productService;
-	
-	public void start() {
-		try {
-			httpService.registerServlet("/products", this, null,null);
-		} catch (ServletException | NamespaceException e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public void stop() {
-		httpService.unregister("/products");
-	}
-	
 	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)

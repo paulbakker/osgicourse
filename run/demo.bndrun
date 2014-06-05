@@ -26,4 +26,5 @@
 	webshop.products.web.servlet;version=latest,\
 	org.apache.felix.http.jetty,\
 	javax.persistence,\
-	org.apache.felix.fileinstall
+	org.apache.felix.fileinstall,\
+	org.apache.felix.http.whiteboard
